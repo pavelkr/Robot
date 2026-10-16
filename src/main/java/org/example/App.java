@@ -54,33 +54,7 @@ public class App
 
         }
         System.out.println( cntSteps );
-        /*
-        //Scanner sc = new Scanner(System.in);
-        String key="";
-        while (!key.equals("esc")) {
-            if (found) break;
-            key = sc.next();
-            switch (key.toUpperCase()) {
-                case "S": point = stepRobot(x,y, turn);
-                            x = point.getX();
-                            y = point.getY();
-                            if (points.contains(point)) {
-                                found = true;
-                                break;
-                             }
-                            points.add(point);
-                    break;
-                case "L": if (turn == 0) turn = 270;
-                            else turn -= 90;
-                    break;
-                case "R": turn += 90;
-                            if (turn == 360)  turn = 0;
-                    break;
-            }
 
-        }
-
-         */
     }
 
     public static Point stepRobot(int x, int y, int turn){
